@@ -1,0 +1,34 @@
+PODS:
+  - Alamofire (5.4.3)
+  - DropDown (2.3.13)
+  - SDWebImage (5.11.1):
+    - SDWebImage/Core (= 5.11.1)
+  - SDWebImage/Core (5.11.1)
+  - SWXMLHash (5.0.1)
+  - youtube-ios-player-helper (1.0.3)
+
+DEPENDENCIES:
+  - Alamofire
+  - DropDown
+  - SDWebImage
+  - SWXMLHash
+  - youtube-ios-player-helper
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - DropDown
+    - SDWebImage
+    - SWXMLHash
+    - youtube-ios-player-helper
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
+  SWXMLHash: 9cc0c2e4807926c74377724aa8722ee5707a0485
+  youtube-ios-player-helper: 0185c57db23c80d63d6ca11251d110abb8a4ca61
+
+PODFILE CHECKSUM: ad4e82bfb41725fb6b1c8f49502cf73c72d3497e
+
+COCOAPODS: 1.10.1

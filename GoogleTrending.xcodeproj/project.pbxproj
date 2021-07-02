@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		651F176F2686D1F5002E8C66 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651F176D2686D1F5002E8C66 /* MainViewController.swift */; };
+		651F17702686D1F5002E8C66 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 651F176E2686D1F5002E8C66 /* MainViewController.xib */; };
+		651F17742686D27F002E8C66 /* TrendingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651F17732686D27F002E8C66 /* TrendingModel.swift */; };
+		656D9848268D703C007416A5 /* OrderEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656D9847268D703C007416A5 /* OrderEnum.swift */; };
+		656D984D268DCB43007416A5 /* YoutubeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656D984C268DCB43007416A5 /* YoutubeService.swift */; };
+		656D9850268DD5A5007416A5 /* TrendService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656D984F268DD5A5007416A5 /* TrendService.swift */; };
+		6573DF4D26896FF30027A833 /* YoutubeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6573DF4B26896FF30027A833 /* YoutubeViewController.swift */; };
+		6573DF4E26896FF30027A833 /* YoutubeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6573DF4C26896FF30027A833 /* YoutubeViewController.xib */; };
+		6573DF5D2689735F0027A833 /* YoutubeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6573DF5B2689735F0027A833 /* YoutubeTableViewCell.swift */; };
+		6573DF5E2689735F0027A833 /* YoutubeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6573DF5C2689735F0027A833 /* YoutubeTableViewCell.xib */; };
+		6573DF61268977E60027A833 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6573DF60268977E60027A833 /* DateExtension.swift */; };
+		6573DF6C26898AD70027A833 /* YoutubePlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6573DF6A26898AD70027A833 /* YoutubePlayViewController.swift */; };
+		6573DF6D26898AD70027A833 /* YoutubePlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6573DF6B26898AD70027A833 /* YoutubePlayViewController.xib */; };
+		6574AFBC268821F30028B4FA /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6574AFBA268821F30028B4FA /* NewViewController.swift */; };
+		6574AFBD268821F30028B4FA /* NewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6574AFBB268821F30028B4FA /* NewViewController.xib */; };
+		6574AFC2268873030028B4FA /* NewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6574AFC0268873030028B4FA /* NewTableViewCell.swift */; };
+		6574AFC3268873030028B4FA /* NewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6574AFC1268873030028B4FA /* NewTableViewCell.xib */; };
+		6574AFC826887C8E0028B4FA /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6574AFC726887C8E0028B4FA /* StringExtension.swift */; };
+		658014572687696F00FFE714 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658014552687696F00FFE714 /* StartViewController.swift */; };
+		658014582687696F00FFE714 /* StartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 658014562687696F00FFE714 /* StartViewController.xib */; };
+		6580145D26876B7900FFE714 /* TrendingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6580145B26876B7900FFE714 /* TrendingTableViewCell.swift */; };
+		6580145E26876B7900FFE714 /* TrendingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6580145C26876B7900FFE714 /* TrendingTableViewCell.xib */; };
+		6586C7EE2688BE66000726EB /* YoutubeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6586C7ED2688BE66000726EB /* YoutubeModel.swift */; };
+		65919702268C5AE00087F03D /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65919701268C5AE00087F03D /* Country.swift */; };
+		65919707268C73ED0087F03D /* TextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65919706268C73ED0087F03D /* TextFieldExtension.swift */; };
+		6592660D2685F52700053CEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6592660C2685F52700053CEE /* AppDelegate.swift */; };
+		6592660F2685F52700053CEE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6592660E2685F52700053CEE /* SceneDelegate.swift */; };
+		659266162685F52A00053CEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 659266152685F52A00053CEE /* Assets.xcassets */; };
+		659266192685F52A00053CEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 659266172685F52A00053CEE /* LaunchScreen.storyboard */; };
+		BB44B8ECE0EED266D4BA7D23 /* Pods_GoogleTrending.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E71C21D9AA4BA17DB6A8E4F /* Pods_GoogleTrending.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5E71C21D9AA4BA17DB6A8E4F /* Pods_GoogleTrending.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleTrending.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		651F176D2686D1F5002E8C66 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		651F176E2686D1F5002E8C66 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		651F17732686D27F002E8C66 /* TrendingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingModel.swift; sourceTree = "<group>"; };
+		656D9847268D703C007416A5 /* OrderEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderEnum.swift; sourceTree = "<group>"; };
+		656D984C268DCB43007416A5 /* YoutubeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeService.swift; sourceTree = "<group>"; };
+		656D984F268DD5A5007416A5 /* TrendService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendService.swift; sourceTree = "<group>"; };
+		6573DF4B26896FF30027A833 /* YoutubeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeViewController.swift; sourceTree = "<group>"; };
+		6573DF4C26896FF30027A833 /* YoutubeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YoutubeViewController.xib; sourceTree = "<group>"; };
+		6573DF5B2689735F0027A833 /* YoutubeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeTableViewCell.swift; sourceTree = "<group>"; };
+		6573DF5C2689735F0027A833 /* YoutubeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YoutubeTableViewCell.xib; sourceTree = "<group>"; };
+		6573DF60268977E60027A833 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		6573DF6A26898AD70027A833 /* YoutubePlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubePlayViewController.swift; sourceTree = "<group>"; };
+		6573DF6B26898AD70027A833 /* YoutubePlayViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YoutubePlayViewController.xib; sourceTree = "<group>"; };
+		6574AFBA268821F30028B4FA /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		6574AFBB268821F30028B4FA /* NewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewViewController.xib; sourceTree = "<group>"; };
+		6574AFC0268873030028B4FA /* NewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTableViewCell.swift; sourceTree = "<group>"; };
+		6574AFC1268873030028B4FA /* NewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewTableViewCell.xib; sourceTree = "<group>"; };
+		6574AFC726887C8E0028B4FA /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		658014552687696F00FFE714 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		658014562687696F00FFE714 /* StartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StartViewController.xib; sourceTree = "<group>"; };
+		6580145B26876B7900FFE714 /* TrendingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingTableViewCell.swift; sourceTree = "<group>"; };
+		6580145C26876B7900FFE714 /* TrendingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrendingTableViewCell.xib; sourceTree = "<group>"; };
+		6586C7ED2688BE66000726EB /* YoutubeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeModel.swift; sourceTree = "<group>"; };
+		65919701268C5AE00087F03D /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		65919706268C73ED0087F03D /* TextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExtension.swift; sourceTree = "<group>"; };
+		659266092685F52700053CEE /* GoogleTrending.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleTrending.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6592660C2685F52700053CEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6592660E2685F52700053CEE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		659266152685F52A00053CEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		659266182685F52A00053CEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6592661A2685F52A00053CEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA340E26A1424C93D90A1085 /* Pods-GoogleTrending.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleTrending.release.xcconfig"; path = "Target Support Files/Pods-GoogleTrending/Pods-GoogleTrending.release.xcconfig"; sourceTree = "<group>"; };
+		B5CDA1F93480A9105E16059C /* Pods-GoogleTrending.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleTrending.debug.xcconfig"; path = "Target Support Files/Pods-GoogleTrending/Pods-GoogleTrending.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		659266062685F52700053CEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB44B8ECE0EED266D4BA7D23 /* Pods_GoogleTrending.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1567DBD8D943CBF4FE979BA8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5CDA1F93480A9105E16059C /* Pods-GoogleTrending.debug.xcconfig */,
+				AA340E26A1424C93D90A1085 /* Pods-GoogleTrending.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		651F17692686D1CF002E8C66 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				656D9847268D703C007416A5 /* OrderEnum.swift */,
+				651F17732686D27F002E8C66 /* TrendingModel.swift */,
+				6586C7ED2688BE66000726EB /* YoutubeModel.swift */,
+				65919701268C5AE00087F03D /* Country.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		651F176B2686D1DB002E8C66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6573DF4926896F440027A833 /* YoutubeView */,
+				6574AFB9268821D30028B4FA /* NewsView */,
+				658014532687683D00FFE714 /* StartVC */,
+				651F176C2686D1E2002E8C66 /* MainVC */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		651F176C2686D1E2002E8C66 /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				6580145A26876B5800FFE714 /* TrendingCell */,
+				651F176D2686D1F5002E8C66 /* MainViewController.swift */,
+				651F176E2686D1F5002E8C66 /* MainViewController.xib */,
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
+		656D984B268DCB18007416A5 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				656D984C268DCB43007416A5 /* YoutubeService.swift */,
+				656D984F268DD5A5007416A5 /* TrendService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		6573DF4926896F440027A833 /* YoutubeView */ = {
+			isa = PBXGroup;
+			children = (
+				6573DF6926898ABA0027A833 /* YoutubePlayView */,
+				6573DF55268972490027A833 /* YoutubeCell */,
+				6573DF4B26896FF30027A833 /* YoutubeViewController.swift */,
+				6573DF4C26896FF30027A833 /* YoutubeViewController.xib */,
+			);
+			path = YoutubeView;
+			sourceTree = "<group>";
+		};
+		6573DF55268972490027A833 /* YoutubeCell */ = {
+			isa = PBXGroup;
+			children = (
+				6573DF5B2689735F0027A833 /* YoutubeTableViewCell.swift */,
+				6573DF5C2689735F0027A833 /* YoutubeTableViewCell.xib */,
+			);
+			path = YoutubeCell;
+			sourceTree = "<group>";
+		};
+		6573DF6926898ABA0027A833 /* YoutubePlayView */ = {
+			isa = PBXGroup;
+			children = (
+				6573DF6A26898AD70027A833 /* YoutubePlayViewController.swift */,
+				6573DF6B26898AD70027A833 /* YoutubePlayViewController.xib */,
+			);
+			path = YoutubePlayView;
+			sourceTree = "<group>";
+		};
+		6574AFB9268821D30028B4FA /* NewsView */ = {
+			isa = PBXGroup;
+			children = (
+				6574AFBF268872EB0028B4FA /* NewCell */,
+				6574AFBA268821F30028B4FA /* NewViewController.swift */,
+				6574AFBB268821F30028B4FA /* NewViewController.xib */,
+			);
+			path = NewsView;
+			sourceTree = "<group>";
+		};
+		6574AFBF268872EB0028B4FA /* NewCell */ = {
+			isa = PBXGroup;
+			children = (
+				6574AFC0268873030028B4FA /* NewTableViewCell.swift */,
+				6574AFC1268873030028B4FA /* NewTableViewCell.xib */,
+			);
+			path = NewCell;
+			sourceTree = "<group>";
+		};
+		6574AFC626887C7B0028B4FA /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6574AFC726887C8E0028B4FA /* StringExtension.swift */,
+				6573DF60268977E60027A833 /* DateExtension.swift */,
+				65919706268C73ED0087F03D /* TextFieldExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		658014532687683D00FFE714 /* StartVC */ = {
+			isa = PBXGroup;
+			children = (
+				658014552687696F00FFE714 /* StartViewController.swift */,
+				658014562687696F00FFE714 /* StartViewController.xib */,
+			);
+			path = StartVC;
+			sourceTree = "<group>";
+		};
+		6580145A26876B5800FFE714 /* TrendingCell */ = {
+			isa = PBXGroup;
+			children = (
+				6580145B26876B7900FFE714 /* TrendingTableViewCell.swift */,
+				6580145C26876B7900FFE714 /* TrendingTableViewCell.xib */,
+			);
+			path = TrendingCell;
+			sourceTree = "<group>";
+		};
+		659266002685F52700053CEE = {
+			isa = PBXGroup;
+			children = (
+				6592660B2685F52700053CEE /* GoogleTrending */,
+				6592660A2685F52700053CEE /* Products */,
+				1567DBD8D943CBF4FE979BA8 /* Pods */,
+				DDFC006C4D214154C48E9D4B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6592660A2685F52700053CEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				659266092685F52700053CEE /* GoogleTrending.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6592660B2685F52700053CEE /* GoogleTrending */ = {
+			isa = PBXGroup;
+			children = (
+				656D984B268DCB18007416A5 /* Service */,
+				6574AFC626887C7B0028B4FA /* Extension */,
+				651F176B2686D1DB002E8C66 /* View */,
+				651F17692686D1CF002E8C66 /* Model */,
+				6592660C2685F52700053CEE /* AppDelegate.swift */,
+				6592660E2685F52700053CEE /* SceneDelegate.swift */,
+				659266152685F52A00053CEE /* Assets.xcassets */,
+				659266172685F52A00053CEE /* LaunchScreen.storyboard */,
+				6592661A2685F52A00053CEE /* Info.plist */,
+			);
+			path = GoogleTrending;
+			sourceTree = "<group>";
+		};
+		DDFC006C4D214154C48E9D4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E71C21D9AA4BA17DB6A8E4F /* Pods_GoogleTrending.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		659266082685F52700053CEE /* GoogleTrending */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6592661D2685F52A00053CEE /* Build configuration list for PBXNativeTarget "GoogleTrending" */;
+			buildPhases = (
+				9BE3CB4D822FCD6D2A879888 /* [CP] Check Pods Manifest.lock */,
+				659266052685F52700053CEE /* Sources */,
+				659266062685F52700053CEE /* Frameworks */,
+				659266072685F52700053CEE /* Resources */,
+				D11FF4F5E63B104B014A1CDB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleTrending;
+			productName = GoogleTrending;
+			productReference = 659266092685F52700053CEE /* GoogleTrending.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		659266012685F52700053CEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					659266082685F52700053CEE = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 659266042685F52700053CEE /* Build configuration list for PBXProject "GoogleTrending" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 659266002685F52700053CEE;
+			productRefGroup = 6592660A2685F52700053CEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				659266082685F52700053CEE /* GoogleTrending */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		659266072685F52700053CEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				659266192685F52A00053CEE /* LaunchScreen.storyboard in Resources */,
+				651F17702686D1F5002E8C66 /* MainViewController.xib in Resources */,
+				6574AFC3268873030028B4FA /* NewTableViewCell.xib in Resources */,
+				659266162685F52A00053CEE /* Assets.xcassets in Resources */,
+				6573DF5E2689735F0027A833 /* YoutubeTableViewCell.xib in Resources */,
+				6574AFBD268821F30028B4FA /* NewViewController.xib in Resources */,
+				6573DF4E26896FF30027A833 /* YoutubeViewController.xib in Resources */,
+				6573DF6D26898AD70027A833 /* YoutubePlayViewController.xib in Resources */,
+				6580145E26876B7900FFE714 /* TrendingTableViewCell.xib in Resources */,
+				658014582687696F00FFE714 /* StartViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9BE3CB4D822FCD6D2A879888 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoogleTrending-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D11FF4F5E63B104B014A1CDB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleTrending/Pods-GoogleTrending-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleTrending/Pods-GoogleTrending-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoogleTrending/Pods-GoogleTrending-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		659266052685F52700053CEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				656D9850268DD5A5007416A5 /* TrendService.swift in Sources */,
+				6573DF5D2689735F0027A833 /* YoutubeTableViewCell.swift in Sources */,
+				656D984D268DCB43007416A5 /* YoutubeService.swift in Sources */,
+				6573DF61268977E60027A833 /* DateExtension.swift in Sources */,
+				6574AFC2268873030028B4FA /* NewTableViewCell.swift in Sources */,
+				6573DF4D26896FF30027A833 /* YoutubeViewController.swift in Sources */,
+				6573DF6C26898AD70027A833 /* YoutubePlayViewController.swift in Sources */,
+				6574AFC826887C8E0028B4FA /* StringExtension.swift in Sources */,
+				6586C7EE2688BE66000726EB /* YoutubeModel.swift in Sources */,
+				651F176F2686D1F5002E8C66 /* MainViewController.swift in Sources */,
+				6592660D2685F52700053CEE /* AppDelegate.swift in Sources */,
+				65919707268C73ED0087F03D /* TextFieldExtension.swift in Sources */,
+				6574AFBC268821F30028B4FA /* NewViewController.swift in Sources */,
+				6580145D26876B7900FFE714 /* TrendingTableViewCell.swift in Sources */,
+				65919702268C5AE00087F03D /* Country.swift in Sources */,
+				651F17742686D27F002E8C66 /* TrendingModel.swift in Sources */,
+				656D9848268D703C007416A5 /* OrderEnum.swift in Sources */,
+				6592660F2685F52700053CEE /* SceneDelegate.swift in Sources */,
+				658014572687696F00FFE714 /* StartViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		659266172685F52A00053CEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				659266182685F52A00053CEE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6592661B2685F52A00053CEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6592661C2685F52A00053CEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6592661E2685F52A00053CEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5CDA1F93480A9105E16059C /* Pods-GoogleTrending.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XLD774DUQ3;
+				INFOPLIST_FILE = GoogleTrending/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = minh.GoogleTrending;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6592661F2685F52A00053CEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA340E26A1424C93D90A1085 /* Pods-GoogleTrending.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XLD774DUQ3;
+				INFOPLIST_FILE = GoogleTrending/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = minh.GoogleTrending;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		659266042685F52700053CEE /* Build configuration list for PBXProject "GoogleTrending" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6592661B2685F52A00053CEE /* Debug */,
+				6592661C2685F52A00053CEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6592661D2685F52A00053CEE /* Build configuration list for PBXNativeTarget "GoogleTrending" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6592661E2685F52A00053CEE /* Debug */,
+				6592661F2685F52A00053CEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 659266012685F52700053CEE /* Project object */;
+}
